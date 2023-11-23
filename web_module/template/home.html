@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRC Chat Login</title>
+    <link rel="icon" type="image/png" href="./assets/image.png">
+    <link href="./assets/tailwind.css" rel="stylesheet">
+    <script src="./assets/htmx.min.js"></script>
+    <script src="./assets/ws.js"></script>
+</head>
+<body>
+    <div id="container" class="bg-gray-900 text-white font-sans">
+        <div class="flex justify-center items-center min-h-screen">
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h1 class="text-2xl font-semibold text-center mb-6">IRC Chat Login</h1>
+                
+                <!-- User Login Section -->
+                <!-- <div class="mb-6"> -->
+                <!--     <h2 class="text-xl font-semibold mb-2">User Login</h2> -->
+                <!--     <form> -->
+                <!--         <div class="mb-4"> -->
+                <!--             <label for="username" class="block text-gray-300">Username:</label> -->
+                <!--             <input type="text" id="username" name="username" class="w-full bg-gray-700 text-white p-2 rounded-md focus:outline-none focus:ring focus:border-blue-400" placeholder="Enter your username" required> -->
+                <!--         </div> -->
+                <!--         <div class="mb-4"> -->
+                <!--             <label for="password" class="block text-gray-300">Password:</label> -->
+                <!--             <input type="password" id="password" name="password" class="w-full bg-gray-700 text-white p-2 rounded-md focus:outline-none focus:ring focus:border-blue-400" placeholder="Enter your password" required> -->
+                <!--         </div> -->
+                <!--         <div class="mb-4"> -->
+                <!--             <label for="guest" class="block text-gray-300"> -->
+                <!--                 <input type="checkbox" id="guest" name="guest" class="mr-2"> -->
+                <!--                 Login as Guest -->
+                <!--             </label> -->
+                <!--         </div> -->
+                <!--         <button type="submit" class="bg-blue-400 text-white py-2 px-4 rounded-md hover:bg-blue-600 w-full">Login</button> -->
+                <!--     </form> -->
+                <!-- </div> -->
+
+                <!-- Room Selection Section -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-2">Room Selection</h2>
+                    <form hx-target="#container" hx-swap="outerHTML" hx-post="/enter-room">
+                        <div class="mb-4">
+                            <label for="roomName" class="block text-gray-300">Room Name:</label>
+                            <input type="text" id="roomName" name="roomName" class="w-full bg-gray-700 text-white p-2 rounded-md focus:outline-none focus:ring focus:border-blue-400" placeholder="Enter room name" required>
+                        </div>
+                        <!-- <div class="mb-4"> -->
+                        <!--     <label for="roomPassword" class="block text-gray-300">Room Password:</label> -->
+                        <!--     <input type="password" id="roomPassword" name="roomPassword" class="w-full bg-gray-700 text-white p-2 rounded-md focus:outline-none focus:ring focus:border-blue-400" placeholder="Enter room password" required> -->
+                        <!-- </div> -->
+                        <button type="submit" class="bg-blue-400 text-white py-2 px-4 rounded-md hover:bg-blue-600 w-full">Join Room</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

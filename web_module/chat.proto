@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package myapp;
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "chatBox/pb";
+
+// Define messages for chat and messages
+message ChatMessage {
+  string content = 1;
+  // Add more fields as needed
+}
+message Empty {}
+// Web Module Service
+
+// Attachment Service
+
+// Message Service
+service MessageService {
+  // Check for unseen messages
+
+  // Check for unsent messages
+  rpc CheckNewMessages(google.protobuf.Timestamp) returns (stream ChatMessage);
+}

@@ -1,0 +1,10 @@
+/home/media/Project/chatBox/message_module/target/debug/deps/amq_protocol_types-a165b1714bd1448e.rmeta: /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/lib.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/types.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/value.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/flags.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/generation.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/parsing.rs
+
+/home/media/Project/chatBox/message_module/target/debug/deps/amq_protocol_types-a165b1714bd1448e.d: /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/lib.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/types.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/value.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/flags.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/generation.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/parsing.rs
+
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/lib.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/types.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/value.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/flags.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/generation.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/amq-protocol-types-7.1.2/src/parsing.rs:

@@ -1,0 +1,11 @@
+/home/media/Project/chatBox/message_module/target/debug/deps/cookie_factory-07d8b2ff4be63ef7.rmeta: /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/lib.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/gen.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/internal.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/bytes.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/combinator.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/multi.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/sequence.rs
+
+/home/media/Project/chatBox/message_module/target/debug/deps/cookie_factory-07d8b2ff4be63ef7.d: /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/lib.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/gen.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/internal.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/bytes.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/combinator.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/multi.rs /home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/sequence.rs
+
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/lib.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/gen.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/internal.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/bytes.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/combinator.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/multi.rs:
+/home/media/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-factory-0.3.2/src/sequence.rs:

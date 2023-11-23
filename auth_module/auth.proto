@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package chatBox;
+
+option go_package = "chatBox/pb";
+
+// User represents a user in the authentication system.
+message User {
+  int32 id = 1;
+  string username = 2;
+  string email = 3;
+}
+
+// Request message to authenticate a user.
+message AuthenticateRequest {
+  string username = 1;
+  string password = 2;
+}
+
+// Response message for authentication.
+message AuthenticateResponse {
+  bool success = 1;
+  string token = 2;
+  string error = 3;
+}
+
+// Service definition for the authentication module.
+service AuthService {
+  // Authenticate a user.
+  rpc AuthenticateUser(AuthenticateRequest) returns (AuthenticateResponse) {}
+
+  // Add more authentication-related RPCs here, e.g., registration, token refresh, etc.
+}
